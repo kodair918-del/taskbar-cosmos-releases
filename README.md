@@ -9,7 +9,7 @@ A tiny idle universe that lives in your taskbar (menu bar on Mac)
 2. zip を右クリック →「すべて展開」して、中の `TaskbarCosmos.exe` をダブルクリックします。
 3. 「Windows によって PC が保護されました」と出たら、「詳細情報」→「実行」で開けます。
 
-## Mac（macOS 14 以降・プレビュー版）
+## Mac（macOS 14 以降）
 
 1. 自分の Mac の種類を調べます: 画面左上の Apple メニュー →「このMacについて」。
    - 「チップ」が **Apple M1・M2・M3・M4…** なら → `TaskbarCosmos_v〇〇_mac_arm64.zip`
@@ -23,7 +23,9 @@ A tiny idle universe that lives in your taskbar (menu bar on Mac)
    もう一度「開く」を押してパスワードを入れると、次からはふつうに開けます。
 4. 画面右上のメニューバー（時計の近く）に、光の玉と光の数が出ます。玉をクリックで光が集まり、数字をクリックでパネルが開きます。
 
-Mac 版はプレビューです。キーボードで光を集める・効果音・雪やホタルの雰囲気・チュートリアルは、これから入ります。
+5. キーを押しても光を集めるには、Mac の許可が要ります。ホームのカードの「許可する」を押すと **システム設定 → プライバシーとセキュリティ → 入力監視** が開くので、「Taskbar Cosmos」をオンにしてから、ゲームを起動し直してください（数えるのは押した回数だけで、どのキーを押したかは見ていません）。
+
+Mac 版も Windows 版と同じ遊び方です（メニューバーがタスクバーの代わり）。
 
 ## 新しい版
 
@@ -34,7 +36,7 @@ Mac 版はプレビューです。キーボードで光を集める・効果音�
 ## Download (English)
 
 - **Windows 10 / 11**: get `TaskbarCosmos_vX.Y.Z.zip` from the [latest release](../../releases/latest), right-click > "Extract All", run `TaskbarCosmos.exe`. If "Windows protected your PC" appears, click "More info" > "Run anyway".
-- **Mac (macOS 14+, preview)**: Apple menu > About This Mac. Apple M1/M2/M3/M4 chip → `..._mac_arm64.zip`; Intel → `..._mac_x64.zip`. Unzip and open "Taskbar Cosmos". The first time macOS says it could not verify the app: click Done, then System Settings > Privacy & Security > "Open Anyway". The game lives in the menu bar (top right).
+- **Mac (macOS 14+)**: Apple menu > About This Mac. Apple M1/M2/M3/M4 chip → `..._mac_arm64.zip`; Intel → `..._mac_x64.zip`. Unzip and open "Taskbar Cosmos". The first time macOS says it could not verify the app: click Done, then System Settings > Privacy & Security > "Open Anyway". The game lives in the menu bar (top right). To gather light with key presses, press Allow on the Home card, turn on Taskbar Cosmos under Privacy & Security > Input Monitoring, then restart the game (only the number of presses is counted).
 
 When a new version is out, the game tells you and updates with one click (your progress is kept).
 
